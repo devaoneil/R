@@ -2,7 +2,7 @@
 Google Doc - please record your name & your interest in Data Science
 https://docs.google.com/document/d/1N2RYsOyNiG4mpGnnIOGaBp9KONaQXdmQ2-c6SfsM1Ck/edit?usp=sharing
 
-Powerpoint:  
+Powerpoint:  https://github.com/devaoneil/R/blob/main/Getting%20Started%20with%20Data%20Science%20in%20R.pptx
 
 A lab in R to get us started: 
 https://openintro.shinyapps.io/ims-01-data-01/#section-data-in-r
