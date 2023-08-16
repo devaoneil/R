@@ -17,25 +17,31 @@ https://posit.cloud/      [you can login with your Google account without making
 
 ## How to start a new program in RStudio and read in a dataset
 
-You can load a dataframe with data without using tidyverse, but you might as well install tidyverse since you need it for glimpse() and various data wrangling procedures. 
+You can load a dataframe with data without using tidyverse, but you might as well install tidyverse since you need it for glimpse() and various data wrangling procedures. In RStudio, go to 
 
-1. Install tidyverse (first time only):
+*File -> New File -> R Script*
+
+1. Install tidyverse (first time only) by typing this into the upper left window and clicking the green run button:
    
   install.packages("tidyverse")
 
-2. Put your .csv file or whatever your data file is into the same directory as your program. Then, change the working directory to this directory:
+2. Put your .csv file or whatever your data file is into the same directory as your program. If you don't have any data files handy, here is a great list for learning data science and stats:
+   
+  https://www.lock5stat.com/datapage1e.html
 
-### Session -> Set Working Directory -> Source File location 
+  Once your data file is in the same directory as your program, change the working directory to this directory:
+
+*Session -> Set Working Directory -> Source File location* 
 
 3. Load tidyverse (do this at the top of each program) and read in the data
   
     library(tidyverse)
    
-    df <- read.csv("HW7_data.csv")
+    df <- read.csv("mydata.csv")
    
     glimpse(df)
      
- Now you have a dataframe called df that you can work with. 
+ Now you have a dataframe called df that you can work with, and you can try tidyverse methods on it.
 
 
 
