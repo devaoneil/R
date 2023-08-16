@@ -23,9 +23,9 @@ You can load a dataframe with data without using tidyverse, but you might as wel
 
 1. Install tidyverse (first time only) by typing this into the upper left window and clicking the green run button:
    
-  install.packages("tidyverse")
+ > install.packages("tidyverse") 
 
-2. Put your .csv file or whatever your data file is into the same directory as your program. If you don't have any data files handy, here is a great list for learning data science and stats:
+3. Put your .csv file or whatever your data file is into the same directory as your program. If you don't have any data files handy, here is a great list for learning data science and stats:
    
   https://www.lock5stat.com/datapage1e.html
 
@@ -35,14 +35,13 @@ You can load a dataframe with data without using tidyverse, but you might as wel
 
 3. Load tidyverse (do this at the top of each program) and read in the data
   
-    library(tidyverse)
+   >  library(tidyverse)
    
-    df <- read.csv("mydata.csv")
+   >  df <- read.csv("mydata.csv")
    
-    glimpse(df)
+   >  glimpse(df)
      
  Now you have a dataframe called df that you can work with, and you can try tidyverse methods on it.
-
 
 
 ## If you are interested in learning python instead, some starting points are provided below.
