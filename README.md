@@ -15,12 +15,14 @@ https://posit.co/download/rstudio-desktop/
 If you prefer the cloud (nothing to download or install):
 https://posit.cloud/      [you can login with your Google account without making a separate acct]
 
-### If you are interested in learning python instead, I suggest:
+### If you are interested in learning python instead, some starting points are provided below.
 
 (1) If you want to learn data science, here is a set of python notebooks:
 
 https://jakevdp.github.io/PythonDataScienceHandbook/
-I can show you how to run jupyter notebooks in colab if you are interested. Very easy to set up through Google drive. 
+
+Running python programs is easy if you use colab, which can be set up through Google drive. Just go to https://colab.research.google.com/
+and click Google Drive and then "new notebook" to get started.  
 
 (2) If you want to learn python programming at a very introductory level, I suggest:
 https://www.py4e.com/
